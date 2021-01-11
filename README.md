@@ -5,6 +5,7 @@ This repo contains some scripts for generating different plot like
 * Bar Graph
 * Grouped Bar Graph
 * Scatter Plot
+* 3D Plots
 * Line Graphs
 * Tilling Images
 
