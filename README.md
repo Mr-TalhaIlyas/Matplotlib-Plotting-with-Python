@@ -11,6 +11,11 @@ This repo contains some scripts for generating different plot like
 
 and others
 
+## Some Useful Cheatcodes
+[Source](https://github.com/matplotlib/matplotlib)
+
+![alt text](https://github.com/Mr-TalhaIlyas/Matplotlib-Plotting-with-Python/blob/master/screens/cheatsheets-1.png)
+
 ## Some sample plots
 
 Bar Graph
