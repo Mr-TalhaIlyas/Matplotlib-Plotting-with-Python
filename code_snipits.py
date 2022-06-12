@@ -28,7 +28,10 @@ def save_plots(epoch, dr_loss, df_loss, dr_acc, df_acc, g_loss, x):
     f.savefig(f"/home/user01/data/talha/gan_1/plots/mnist_{epoch}.png")
     plt.show()
     #plt.close()
-       
+    # update the plot in same window
+    f.canvas.draw()
+    f.canvas.flush_events()
+        
 
     return None#f
 
