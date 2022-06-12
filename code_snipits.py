@@ -39,3 +39,17 @@ def figure_to_array(fig):
     """
     fig.canvas.draw()
     return np.array(fig.canvas.renderer._renderer)
+
+def plot_hists(image):
+    # trurn off the the interactive plotting
+    plt.ioff()
+
+    fig = plt.figure()
+    _ = plt.hist(image[:, :, 0].ravel(), bins = 256, color = 'red', alpha = 0.5)
+    _ = plt.hist(image[:, :, 1].ravel(), bins = 256, color = 'Green', alpha = 0.5)
+    _ = plt.hist(image[:, :, 2].ravel(), bins = 256, color = 'Blue', alpha = 0.5)
+    _ = plt.xlabel('Intensity Value')
+    _ = plt.ylabel('Count')
+    _ = plt.legend(['Red_Channel', 'Green_Channel', 'Blue_Channel'])
+    plt.close(fig)
+    return figure_to_array(fig)
