@@ -31,3 +31,11 @@ def save_plots(epoch, dr_loss, df_loss, dr_acc, df_acc, g_loss, x):
        
 
     return None#f
+
+def figure_to_array(fig):
+    """
+    convert matplot figure to array
+    shape: height, width, layer
+    """
+    fig.canvas.draw()
+    return np.array(fig.canvas.renderer._renderer)
