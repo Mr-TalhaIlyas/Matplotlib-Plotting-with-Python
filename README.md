@@ -22,4 +22,8 @@ Bar Graph
 ![alt text](https://github.com/Mr-TalhaIlyas/Matplotlib-Plotting-with-Python/blob/master/screens/img.png)
 Grouped Bar Graph
 ![alt text](https://github.com/Mr-TalhaIlyas/Matplotlib-Plotting-with-Python/blob/master/screens/img2.png)
+# HeatMaps
+![alt text](https://github.com/Mr-TalhaIlyas/Matplotlib-Plotting-with-Python/blob/master/screens/cm.png)
+# Line Plot
+![alt text](https://github.com/Mr-TalhaIlyas/Matplotlib-Plotting-with-Python/blob/master/screens/line.png)
 Scatter Plot
