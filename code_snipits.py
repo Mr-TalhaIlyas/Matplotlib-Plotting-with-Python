@@ -56,3 +56,42 @@ def plot_hists(image):
     _ = plt.legend(['Red_Channel', 'Green_Channel', 'Blue_Channel'])
     plt.close(fig)
     return figure_to_array(fig)
+
+
+# def get_barplot(preds, typ):
+    
+#     if typ == 'g_model':
+#         dicts = dict_c
+#     elif typ == 't_model':
+#         dicts = dict_b
+#     y = np.squeeze(preds)
+#     x = np.arange(len(y))
+    
+#     fig = plt.figure()
+#     p = sns.barplot(x,y)
+#     p.set_xticks(range(len(y)),labels=list(dicts.keys()),  rotation=45, ha="right")
+#     plt.ylabel('Score')
+#     fig.tight_layout()
+#     plt.close(fig)
+    
+#     fig.canvas.draw()
+#     return cv2.resize(np.array(fig.canvas.renderer._renderer), (512,256))
+
+# def get_barplot_s(preds, typ):
+    
+#     if typ == 'g_model':
+#         dicts = dict_sc
+#     elif typ == 't_model':
+#         dicts = dict_sb
+#     y = np.squeeze(preds)
+#     x = np.arange(len(y))
+    
+#     fig = plt.figure()#figsize=(8,4)
+#     p = sns.barplot(x,y)
+#     p.set_xticks(range(len(y)),labels=list(dicts.keys()),  rotation=45, ha="right")
+#     plt.ylabel('Score')
+#     fig.tight_layout()
+#     plt.close(fig)
+    
+#     fig.canvas.draw()
+#     return cv2.resize(np.array(fig.canvas.renderer._renderer), (256,256))
