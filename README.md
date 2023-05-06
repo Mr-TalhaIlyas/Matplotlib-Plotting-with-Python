@@ -2,8 +2,7 @@
 
 This repo contains some scripts for generating different plot like 
 
-
-and others
+*New files added with graphs. Usually when writing artilcles.
 
 ## Some Useful Cheatcodes
 [Source](https://github.com/matplotlib/matplotlib)
